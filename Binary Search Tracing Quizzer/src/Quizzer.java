@@ -10,6 +10,7 @@ public class Quizzer extends JFrame
 		static int choice;
 		static int randNum;
 		static int number;
+		static int pass=0;
 		static int left;
 		static int right;
 		static int mid;
@@ -77,7 +78,7 @@ public class Quizzer extends JFrame
 		}
 		public static void binarySearch()
 		{
-			int pass=0;
+			
 			target=number;
 			left=0;
 			right=ints.size()-1;
